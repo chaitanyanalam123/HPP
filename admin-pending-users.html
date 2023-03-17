@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Now UI Dashboard by Creative Tim</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link href="https://use.fontawesome.com/releases/v5.0.6/css/all.css" rel="stylesheet">
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/now-ui-dashboard.css?v=1.0.1" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/demo/demo.css" rel="stylesheet" />
+    
+</head>
+
+<body class="">
+    <div class="wrapper " >
+        <div class="sidebar" data-color="orange" >
+            <!--Tip 1: You can change the color of the sidebar using: data-color="blue | green | orange | red | yellow"-->
+            <div class="logo d-flex">
+                <img src="funny-illustration-3d-cartoon-backpacker.jpg" style="border-radius: 50%; width:3rem; height:3rem;" class="mt-2 ml-3"/>
+                <a href="index.html" class="simple-text d-flex ml-2 mt-2">
+                    Administrator
+                </a>
+            </div>
+            <div class="sidebar-wrapper" >
+                <ul class="nav">
+                    <li class="">
+                        <a href="index.html">
+                            <i class="now-ui-icons design_app" style="color: white;"></i>
+                            <p style="font-size: 0.9rem; font-weight:bold;">Dashboard</p>
+                        </a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements" aria-expanded="false" aria-controls="form-elements">
+                            <div class="d-flex" >
+                                <i class="fa fa-users mr-2 mt-2" style="color:primary;"></i>
+                                <span class="menu-title" style="font-size: 0.9rem;">User Management</span>
+                                <i class="fa fa-plus ml-4"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="form-elements">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem; text-decoration:underline;" href="admin-pending-users.html">Pending Users</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-all-users.html">All Users</a></li>                                  
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements0" aria-expanded="false" aria-controls="form-elements">
+                            <div class="d-flex" >
+                                <i class="fa fa-building mr-2 mt-2" style="color:white;"></i>
+                                <span class="menu-title" style="font-size: 0.9rem;">property Management</span>
+                                <i class="fa fa-plus ml-2"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="form-elements0">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-add-location.html">Add Location</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-add-properties.html">Add Properties</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-manage-properties.html">Manage Properties</a></li>                                                                    
+                            </ul>
+                        </div>
+                    </li>
+                    <!-- <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements1" aria-expanded="false" aria-controls="form-elements">
+                            <div class="d-flex" >
+                                <i class="now-ui-icons design_bullet-list-67 mr-2" style="color:white;"></i>
+                                <span class="menu-title" style="font-size: 0.9rem;">Dataset</span>
+                                <i class="fa fa-plus" style="margin-left: 5rem;"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="form-elements1">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-upload-dataset.html">Upload Dataset</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-view-dataset.html">View Dataset</a></li>                                  
+                            </ul>
+                        </div>
+                    </li> -->
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements2" aria-expanded="false" aria-controls="form-elements">
+                            <div class="d-flex" >
+                                <i class="fa fa-tag mr-2" style="color:white;"></i>
+                                <span class="menu-title" style="font-size: 0.9rem;">Algorithms</span>
+                                <i class="fa fa-plus ml-5"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="form-elements2">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-xgboost-algm.html">XG Boost Algorithm</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-catboost-algm.html">Cat Boost Algorithm</a></li>                                  
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" data-toggle="collapse" href="#form-elements3" aria-expanded="false" aria-controls="form-elements">
+                            <div class="d-flex" >
+                                <i class="fa fa-comment mr-2 mt-2" style="color:white;"></i>
+                                <span class="menu-title" style="font-size: 0.9rem;">Feedback Management</span>
+                                <i class="fa fa-plus ml-2"></i>
+                            </div>
+                        </a>
+                        <div class="collapse" id="form-elements3">
+                            <ul class="nav flex-column sub-menu">
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-user-feedback.html">User Feedback</a></li>
+                                <li class="nav-item"><a class="nav-link" style="font-size: 0.9rem; margin-left:4rem;" href="admin-feedback-graph-analysis.html">Graph Analysis</a></li>                                                                    
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="main-panel">
+            <!-- Navbar -->
+            <nav class="navbar navbar-expand-lg navbar-transparent  navbar-absolute bg-primary fixed-top">
+                <div class="container">
+                    <div class="navbar-wrapper"> 
+                        <p class="navbar-brand mt-3" style="margin-left: -8rem; font-size:1rem">Pending Users</p>
+                        <a class="btn btn-secondary mt-4" href="main-admin.html" style="margin-left: 70rem;"><i class="fa fa-fire mr-2"></i>Logout</a>
+                    </div>
+                </div>
+            </nav>
+            <!-- End Navbar -->
+            <div class="panel-header panel-header-lg" style="height:0rem;">
+            </div>
+             
+            <div class="col-12 ">
+                <div class="row">
+                    <div class="col-md-12 tablebg">
+                        <div class="card text-center">
+                            <div class="table-responsive pt-3">
+                                <form method = ' post' enctype = 'multipart/form-data'>
+                                    <table class="table table-striped project-orders-table text-center mt-2"style="align-items: center; text-align:center;">
+                                        <thead>
+                                            <tr class="align-items-center" >
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">S.No</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">User Profile</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">Name</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">Email</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">Phone Number</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">Status</th>
+                                                <th class='font-weight-bold text-center' style="font-weight:bold;">Action</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            <tr class="">
+                                                <td>01</td>
+                                                <td><img src="face1.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>02</td>
+                                                <td><img src="face3.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>03</td>
+                                                <td><img src="face4.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>04</td>
+                                                <td><img src="face5.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>05</td>
+                                                <td><img src="face6.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                            <tr class="">
+                                                <td>06</td>
+                                                <td><img src="face8.jpg" style="border-radius: 50%; width:50px;height:50px;"/> </td>
+                                                <td>Rakesh Goud</td>
+                                                <td>raeshg@gmail.com</td>
+                                                <td>1234567890</td>
+                                                <td class="text-warning">Pending</td>
+                                                <td>
+                                                <div>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-success btn-sm btn-icon-text mr-3">
+                                                            Accept
+                                                            <i class="fa fa-check"></i>                          
+                                                        </button>
+                                                    </a>
+                                                    <a href = "">
+                                                        <button type="button" class="btn btn-danger btn-sm btn-icon-text">
+                                                            Reject
+                                                            <i class="fa fa-info-circle"></i>                          
+                                                        </button>
+                                                    </a>
+                                                </div>
+                                                </td>
+                                            </tr>
+                                        </tbody>
+                                    </table>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+
+        </div>
+    </div>
+</body>
+<!--   Core JS Files   -->
+<script src="./assets/js/core/jquery.min.js"></script>
+<script src="./assets/js/core/popper.min.js"></script>
+<script src="./assets/js/core/bootstrap.min.js"></script>
+<script src="./assets/js/plugins/perfect-scrollbar.jquery.min.js"></script>
+<!--  Google Maps Plugin    -->
+<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script>
+<!-- Chart JS -->
+<script src="./assets/js/plugins/chartjs.min.js"></script>
+<!--  Notifications Plugin    -->
+<script src="./assets/js/plugins/bootstrap-notify.js"></script>
+<!-- Control Center for Now Ui Dashboard: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/now-ui-dashboard.js?v=1.0.1"></script>
+<!-- Now Ui Dashboard DEMO methods, don't include it in your project! -->
+<script src="./assets/demo/demo.js"></script>
+<script>
+    $(document).ready(function() {
+        // Javascript method's body can be found in assets/js/demos.js
+        demo.initDashboardPageCharts();
+    });
+</script>
+
+</html>
